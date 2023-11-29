@@ -1,0 +1,214 @@
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /*display: none;*/
+    background-color: #000000; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#scrollTopBtn span {
+    font-size: 20px; 
+}
+
+
+/*Forside*/
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1; 
+    color: black;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 31px;
+}
+
+#icon img {
+    width: 50px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 1050px;
+}
+
+nav li {
+    margin-right: 10px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 0px;
+    height: 150px;
+    padding-bottom: 200px;
+}
+
+main section h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+
+main section p{
+    display: flex;
+    justify-content: center;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+main section article h2{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    padding-top: 175px;
+}
+
+main section article p{
+    padding-left: 40%;
+}
+
+main section article img {
+    margin-right: 20px; 
+}
+
+
+
+/*main section article button{
+    display: flex;
+    justify-content: center;
+}*/
+
+/*main section article form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}*/
+
+/*main section article button {
+    margin-bottom: 10px;  
+}*/
+
+#aboutour{
+    padding-left: 0px;
+}
+
+#bildemain{
+    padding-left: 200px;
+}
+
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+#content-section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/*Products*/
+
+header {
+    position: relative;
+}
+
+.header-container {
+    position: relative;
+}
+
+.header-container img {
+    width: 100%;
+    height: auto; 
+}
+
+.header-container h1 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(0, 0, 0); 
+    z-index: 1; 
+}
+
+/*About*/
+
+.header-container p {
+    position: absolute;
+    top: 50%; 
+    left: 80%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(0, 0, 0); 
+    z-index: 1; 
+}
+
+.header-container h2{
+    position: sticky;
+    top: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: rgb(0, 0, 0); 
+    z-index: 1; 
+}
+
+#map {
+    height: 300px; 
+    width: 100%; 
+ }
+
+/*
+
+Fargekoder:
+
+Gull-gul kode: #e6bd43
+
+Gråsvart: #252525
+
+Svart: #000
+
+Hvit: #fff
+
+*/
