@@ -40,7 +40,7 @@
             necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur 
             a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
         </p>
-        <button type="button">
+        <button type="button" id="scrollToContact">
             Get in touch with us
         </button>
     
@@ -158,6 +158,11 @@
           title: 'Our Company'
        });
     }
+</script>
+<script>
+    document.getElementById('scrollToContact').addEventListener('click', function() {
+        document.getElementById('contactform').scrollIntoView({ behavior: 'smooth' });
+    });
 </script>
 
 <gmp-map center="59.12898635864258,11.3530912399292" zoom="14" map-id="DEMO_MAP_ID">
